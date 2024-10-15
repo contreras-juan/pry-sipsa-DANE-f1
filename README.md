@@ -5,11 +5,11 @@ git remote add origin https://codeversion.dane.gov.co/OSIS_TestLabExplorers/aula
 
 ```
 
-# Proyecto de Ciencia de Datos: [Nombre del proyecto].
+# Proyecto de Ciencia de Datos: SIPSABot DANE - Tu guía de precios de la canasta familiar.
 
 ## Descripción
 
-Este proyecto de ciencia de datos está diseñado para [_describir el objetivo principal del proyecto_]. El proyecto se enfoca en [_resolver un problema específico o explorar una pregunta de investigación_]. Se ejecuto utilizando como lenguaje de programación [_indicar lenguaje de programación_] sobre [_la plataforma, software o servicio_]. Se espera que al final del proyecto [_describir el resultado esperado o impacto del proyecto_]. Este repositorio contiene [detalles adicionales como scripts, notebooks, etc.] para [proporcionar una base para la práctica, exploración, o mejoras en el análisis de datos].
+Este proyecto de ciencia de datos está diseñado para generar una solución tipo chatbot capaz de responder a las diferentes consultas sobre los precios de la canasta familiar y generar predicciones (forecasting) para series de tiempo definidas por el usuario. El proyecto se enfoca en resolver la necesidad de proporcionar respuestas de forma ágil e intuitiva a las preguntas definidas por el usuario interesado en obtener información específica sobre los precios y costos de la canasta familiar y otros sectores económicos capturados por el SIPSA. Se ejecutó utilizando como lenguaje de programación Python utilizando el servicio de experimentación de Azure Databricks y accediendo a los modelos de Hugging Face Transformers para el modelo LLM y análisis de series temporales. Se espera que al final del proyecto se logre un chatbot funcional que permita realizar consultas interactivas sobre los precios de la canasta familiar y generar predicciones de precios futuros, facilitando la planificación para diferentes actores del sector agropecuario. Este repositorio contiene scripts, notebooks y ejemplos para el preprocesamiento de datos, entrenamiento del modelo LLM, y la implementación de las predicciones, proporcionando una base para la práctica, exploración y mejoras en el análisis de datos.
 
 ## Índice
 
@@ -83,13 +83,13 @@ Proporciona una breve descripción del conjunto de datos, incluyendo la fuente, 
 
 | **Fuente**                                               | **Formato**   | **Descripción**                                           | **Peso (GB)** |
 |----------------------------------------------------------|---------------|-----------------------------------------------------------|---------------|
-| [Enlace fuente de los datos](https://example.com/dataset)| CSV, JSON, etc| Breve descripción del contenido del conjunto de datos     | [Indicar Peso en GB]          |
+| https://microdatos.dane.gov.co/index.php/catalog/697/get-microdata | CSV | Conjunto de datos del Sistema de Información de Precios y Abastecimiento - SIPSA, el cual analiza el comportamiento de la canasta familiar pero También de sectores como transporte, educación y construcción y empresas. Están disponibles series, índices y variaciones de 10 índices diferentes, así como sistemas de consulta dinámica y metodologías.| 0,71 GB |
 
 ### Descargar los Datos
 
 Instrucciones sobre cómo obtener los datos. Esto puede incluir enlaces para descargar archivos o instrucciones para obtener datos de una API.
 
-1. **Descarga el archivo de datos desde [enlace a los datos](https://example.com/dataset)**.
+1. **Descarga el archivo de datos desde https://microdatos.dane.gov.co/index.php/catalog/697/get-microdata**.
 2. **Extrae el archivo** (si es necesario) y colócalo en el directorio adecuado:
     ```sh
     mkdir data
@@ -177,8 +177,8 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consult
  
 Este proyecto ha sido desarrollado por:
  
-- **[Nombre del Autor 1](https://gitlab.com/autor1)** - *Rol principal* - Breve descripción de las contribuciones o responsabilidades.
-- **[Nombre del Autor 2](https://gitlab.com/autor2)** - *Rol secundario* - Breve descripción de las contribuciones o responsabilidades.
+- **Juan Felipe Contreras Alcivar](https://github.com/contreras-juan)** - *Rol principal* - Científico de datos a cargo del desarrollo de los modelos.
+- ** Alejandro Sandoval Pineda (https://github.com/alsandovalp)** - *Rol secundario* - Líder del proyecto de ciencia de datos..
  
 Si deseas más información sobre los colaboradores del proyecto, consulta la lista de [colaboradores](https://gitlab.com/tu-repositorio/colaboradores) que participaron en este proyecto.
 # pry-sipsa-DANE-f1

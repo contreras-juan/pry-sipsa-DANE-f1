@@ -20,7 +20,7 @@ Este proyecto de ciencia de datos está diseñado para generar una solución tip
 - [Evaluación](#evaluación)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
-- [Autores](#autores)
+- [Autores](#autores).
 
 ## Instalación
 

@@ -1,4 +1,4 @@
-![dane_sen_logo](https://codeversion.dane.gov.co/OSIS_TestLabExplorers/aulapython/pry-name-yyyy/-/raw/main/assets/images/dane_sen_logo_2024.PNG)
+![dane_sen_logo](https://github.com/contreras-juan/pry-sipsa-DANE-f1/blob/main/assets/images/dane_sen_logo_2024.PNG?raw=true)
 
 ```
 git remote add origin https://codeversion.dane.gov.co/OSIS_TestLabExplorers/aulapython/pry-name-yyyy.git

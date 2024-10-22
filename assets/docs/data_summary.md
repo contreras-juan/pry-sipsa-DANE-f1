@@ -15,29 +15,26 @@ A continuación se presenta una visión general detallada del conjunto de datos,
 
 | **Fuente**                | **Método de Obtención**                          | **Ubicación**                                  | **Estructura de Datos**                      | **Formato / Extensión**    | **Tamaño**                          | **Versión**                |
 |---------------------------|--------------------------------------------------|------------------------------------------------|----------------------------------------------|----------------------------|------------------------------------|----------------------------|
-| Nombre del origen de datos. Ejemplos: sistemas internos, bases de datos externas, APIs. | Método utilizado para obtener los datos. Ejemplos: API, extracción directa, exportación manual | Ubicación física o virtual del almacenamiento de los datos. Ejemplos: servidor local, nube, base de datos específica. | Descripción de la estructura de los datos, estructurada (tabular), no estructurada (audios, documentos, textos) | Formato en el que los datos se almacenan o se intercambian. Ejemplos: CSV, PARQUET, XLSX, TXT, JSON, XML, SQL. | Información sobre el tamaño de los datos, incluyendo el número de registros, columnas y  tamaño total en GB o TB. | Versión actual de los datos o del sistema que gestiona los datos. Ejemplos: v1.0, v2.3, etc. |
+| Plataforma web de Datos Abiertos Colombia (https://www.datos.gov.co)| Extracción directa (Descarga) | Servidor local | Estructurada | CSV | 1.471.928 registros, 10 columnas y  tamaño total DE 0,71 GB | Versión 1.0 |
 
 # Seguridad y Privacidad de Datos
 
 ### Requisitos de Seguridad
 - **Cifrado de Datos:**
-  - Descripción: [Indicar si se requiere cifrado para proteger los datos en reposo y en tránsito, y qué tipo de cifrado se utiliza (e.g., AES-256, TLS).]
-  - Implementación: [Describir cómo se implementa el cifrado, incluyendo las herramientas o protocolos específicos.]
+  - No aplica, datos abiertos sin información confidencial.
 
 ### Privacidad de Datos
 - **Protección de Datos Confidenciales:**
-  - Descripción: [Indicar qué datos se consideran confidenciales y cómo se protegen.]
-  - Acceso y Control: [Detallar las políticas y controles de acceso para garantizar que solo el personal autorizado tenga acceso a los datos.]
-
+  - No aplica, datos abiertos sin información confidencial.
+  
 ### Consideraciones Éticas
 - **Consentimiento y Transparencia:**
-  - Descripción: [Indicar cómo se obtiene el consentimiento de los sujetos de datos y cómo se asegura la transparencia en el uso de datos.]
-  - Prácticas Éticas: [Describir las prácticas para garantizar que el uso de datos se alinee con principios éticos y legales.]
+- No aplica, datos abiertos sin información confidencial.
 
 ### Clasificación de Datos
 - **Tipo de Datos:**
-  - Descripción: [Especificar los tipos de datos recolectados (e.g., datos personales, datos sensibles, datos anónimos).]
-  - Relevancia: [Explicar por qué estos datos son relevantes para el proyecto.]
+  - Descripción: Datos abiertos al público.
+  - Relevancia: El conjunto de datos proporciona al modelo una representación rica y diversa del dominio específico que se desea cubrir, en este caso, productos de la canasta familiar, categorias y cantidades. La calidad, cantidad y variedad de los datos permiten al modelo capturar patrones lingüísticos y de contexto necesarios para comprender y responder a consultas complejas de manera coherente y relevante.
 
 ### Diccionario de datos
 

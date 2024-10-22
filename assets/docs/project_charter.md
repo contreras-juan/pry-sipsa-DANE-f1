@@ -1,4 +1,4 @@
-![dane_sen_logo](https://codeversion.dane.gov.co/OSIS_TestLabExplorers/aulapython/pry-name-yyyy/-/raw/main/assets/images/dane_sen_logo_2024.PNG)
+![dane_sen_logo](https://github.com/contreras-juan/pry-sipsa-DANE-f1/blob/main/assets/images/dane_sen_logo_2024.PNG?raw=true)
 
 # Documento marco 
 
@@ -16,9 +16,9 @@ Generar una solución tipo chatbot capaz de responder a las diferentes consultas
 
 - **Descripción de los datos disponibles**: El conjunto de datos corresponde a la información recolectada por el SIPSA para el periodo de los dos primeros cuatrimestres de 2024, que cubre la oferta y abastecimiento de alimentos en diferentes regiones de Colombia. Las columnas incluidas en el dataset detallan aspectos clave relacionados con las fuentes de información, fechas de encuesta, ubicaciones geográficas y productos. Se encuentra disponible de manera abierta y pública en la plataforma de Datos Abiertos Colombia (https://microdatos.dane.gov.co/index.php/catalog/697/get-microdata).
 
--**Descripción de los resultados esperados**: Se espera contar con una solución tipo chatbot capaz de responder a las diferentes consultas sobre los productos de la canasta familiar y generar predicciones (forecasting) para series de tiempo definidas por el usuario.
+- **Descripción de los resultados esperados**: Se espera contar con una solución tipo chatbot capaz de responder a las diferentes consultas sobre los productos de la canasta familiar y generar predicciones (forecasting) para series de tiempo definidas por el usuario.
 
--**Criterios de éxito del proyecto**: La solución chatbot debe ser capaz de proporcionar respuestas precisas sobre productos de la canasta familiar, incluyendo consultas sobre procedencia departamental, municipal, cantidades y categorías, con un 90% de precisión en las respuestas textuales.
+- **Criterios de éxito del proyecto**: La solución chatbot debe ser capaz de proporcionar respuestas precisas sobre productos de la canasta familiar, incluyendo consultas sobre procedencia departamental, municipal, cantidades y categorías, con un 90% de precisión en las respuestas textuales.
 
 ### Excluye:
 
@@ -42,10 +42,10 @@ En esta sección, presentamos la arquitectura general del proyecto, la cual ha s
 
 | Proceso clave | Duración Estimada | Fechas |
 |------|---------|-------|
-| Iniciación del proyecto | 2 semanas | del 1 de Agosto al 15 de Agosto |
-| Ingeniería de características | 2 semanas | del 16 de Agosto al 31 de Agosto |
-| Experimentación | 4 semanas | del 1 de Septiembre al 30 de Septiembre |
-| Pipeline del flujo de trabajo automatizado de ciencia de datos | 4 semanas | del 1 de Octubre al 31 de Octubre |
+| Iniciación del proyecto | 2 semanas | del 1 al 15 de Agosto |
+| Ingeniería de características | 2 semanas | del 16 al 31 de Agosto |
+| Experimentación | 4 semanas | del 1 al 30 de Septiembre |
+| Pipeline del flujo de trabajo automatizado de ciencia de datos | 4 semanas | del 1 al 31 de Octubre |
 
 ## Equipo del Proyecto
 

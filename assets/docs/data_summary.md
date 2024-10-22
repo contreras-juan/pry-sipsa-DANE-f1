@@ -42,41 +42,24 @@ A continuación, se presenta el diccionario de datos, que detalla la estructura 
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_... | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_n | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| Fuente | Descripción de la variable 1 | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| FechaEncuesta | Fecha en la que se realizo la encuesta | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| Cod. Depto Proc. | Código de la DIVIPOLA del Departamento donde se realizo la encuesta | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| Cod. Municipio Proc. | Código de la DIVIPOLA del Municipio donde se realizo la encuesta | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| Departamento Proc. | Nombre del Departamento donde se realizo la encuesta | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| Municipio Proc. | Nombre del Municipio donde se realizo la encuesta | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| Grupo | Grupo del producto de la canasta de SIPSA | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| Codigo CPC | Códgo de la Clasificación Central de Productos | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| Ali |Nombre del alimento | Carácter | Sin información | Archivo Nacional de Datos ANDA |
+| Cant Kg | Cantidad en Kilogramos | Carácter | Sin información | Archivo Nacional de Datos ANDA |
 
 ## Movimiento e ingeniería de datos
 
-- Ubicación del origen y destino de los datos:
-- Métricas de calidad de datos
+- Ubicación del origen de los datos: Archivo Nacional de Datos (ANDA) 
+- Ubicación del destino de los datos: On-premise WorkStation de Desarrollo
+- Métricas de calidad de datos: Sin información
 - Reglas de transformación e ingeniería de características a aplicar a los datos.
 
 ### Rutinas para la carga de datos
 
 - [Especificar los scripts utilizados para la carga de los datos].
-
-## Resumen de calidad de los datos
-
-[En esta sección se presenta un resumen de la calidad de los datos basado en les métricas establecidas previamente]
-
-## Análisis Exploratorio de Datos
-
-[Presentar el análisis exploratorio de datos]
-
-### Variable objetivo
-
-[Describir la variable objetivo, mostrar su distribución en gráficos que permitan entender mejor su comportamiento]
-
-### Variables individuales
-
-[Análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica)]
-
-### Ranking de variables
-
-[Ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático]
-
-### Relación entre variables explicativas y variable objetivo
-
-[Análisis de la relación entre las variables explicativas y la variable objetivo]. Sugeridos gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.

@@ -5,11 +5,11 @@ git remote add origin https://codeversion.dane.gov.co/OSIS_TestLabExplorers/aula
 
 ```
 
-# Proyecto de Ciencia de Datos: SIPSABot DANE - Tu guía de precios de la canasta familiar.
+# Proyecto de Ciencia de Datos: SIPSABot DANE - Tu guía de información de la canasta familiar.
 
 ## Descripción
 
-Este proyecto de ciencia de datos está diseñado para generar una solución tipo chatbot capaz de responder a las diferentes consultas sobre los precios de la canasta familiar y generar predicciones (forecasting) para series de tiempo definidas por el usuario. El proyecto se enfoca en resolver la necesidad de proporcionar respuestas de forma ágil e intuitiva a las preguntas definidas por el usuario interesado en obtener información específica sobre los precios y costos de la canasta familiar y otros sectores económicos capturados por el SIPSA. Se ejecutó utilizando como lenguaje de programación Python utilizando el servicio de experimentación de Azure Databricks y accediendo a los modelos de Hugging Face Transformers para el modelo LLM y análisis de series temporales. Se espera que al final del proyecto se logre un chatbot funcional que permita realizar consultas interactivas sobre los precios de la canasta familiar y generar predicciones de precios futuros, facilitando la planificación para diferentes actores del sector agropecuario. Este repositorio contiene scripts, notebooks y ejemplos para el preprocesamiento de datos, entrenamiento del modelo LLM, y la implementación de las predicciones, proporcionando una base para la práctica, exploración y mejoras en el análisis de datos.
+Este proyecto de ciencia de datos está diseñado para generar una solución tipo chatbot capaz de responder a las diferentes consultas sobre los productos de la canasta familiar y generar predicciones (forecasting) para series de tiempo definidas por el usuario. El proyecto se enfoca en resolver la necesidad de proporcionar respuestas de forma ágil e intuitiva a las preguntas definidas por el usuario interesado en obtener información específica sobre producción y distribución de productos de la canasta familiar y otros sectores económicos capturados por el SIPSA. Se ejecutó utilizando como lenguaje de programación Python utilizando el servicio de experimentación de Azure Databricks y accediendo a los modelos de Hugging Face Transformers para el modelo LLM y análisis de series temporales. Se espera que al final del proyecto se logre un chatbot funcional que permita realizar consultas interactivas sobre producción y distribución de productos de la canasta familiar y generar predicciones de producción, facilitando la planificación para diferentes actores del sector agropecuario. Este repositorio contiene scripts, notebooks y ejemplos para el preprocesamiento de datos, entrenamiento del modelo LLM, y la implementación de las predicciones, proporcionando una base para la práctica, exploración y mejoras en el análisis de datos.
 
 ## Índice
 
@@ -30,7 +30,7 @@ Para ejecutar este proyecto, sigue los siguientes pasos [Indicar los prerrequisi
 
 1. **Clona el repositorio** en tu máquina local:
     ```sh
-    git clone https://gitlab.com/tu_usuario/tu_repositorio.git
+    git clone https://github.com/contreras-juan/pry-sipsa-DANE-f1.git
     cd tu_repositorio
     ```
 
@@ -178,7 +178,7 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consult
 Este proyecto ha sido desarrollado por:
  
 - **Juan Felipe Contreras Alcivar](https://github.com/contreras-juan)** - *Rol principal* - Científico de datos a cargo del desarrollo de los modelos.
-- ** Alejandro Sandoval Pineda (https://github.com/alsandovalp)** - *Rol secundario* - Líder del proyecto de ciencia de datos..
+- **Alejandro Sandoval Pineda (https://github.com/alsandovalp)** - *Rol secundario* - Líder del proyecto de ciencia de datos.
  
 Si deseas más información sobre los colaboradores del proyecto, consulta la lista de [colaboradores](https://gitlab.com/tu-repositorio/colaboradores) que participaron en este proyecto.
 # pry-sipsa-DANE-f1

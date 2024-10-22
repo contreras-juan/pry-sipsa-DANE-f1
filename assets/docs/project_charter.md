@@ -4,48 +4,36 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+SIPSABot DANE - Tu guía de información de la canasta familiar
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Generar una solución tipo chatbot capaz de responder a las diferentes consultas sobre producción, abastecimiento y disponibilidad de los productos de la canasta familiar y generar predicciones (forecasting) para series de tiempo definidas por el usuario. El proyecto se enfoca en resolver la necesidad de proporcionar respuestas de forma ágil e intuitiva a las preguntas definidas por el usuario interesado en obtener información específica sobre producción y distribución de productos de la canasta familiar y otros sectores económicos capturados por el SIPSA.
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+- **Descripción de los datos disponibles**: El conjunto de datos corresponde a la información recolectada por el SIPSA para el periodo de los dos primeros cuatrimestres de 2024, que cubre la oferta y abastecimiento de alimentos en diferentes regiones de Colombia. Las columnas incluidas en el dataset detallan aspectos clave relacionados con las fuentes de información, fechas de encuesta, ubicaciones geográficas y productos. Se encuentra disponible de manera abierta y pública en la plataforma de Datos Abiertos Colombia (https://microdatos.dane.gov.co/index.php/catalog/697/get-microdata).
+
+-**Descripción de los resultados esperados**: Se espera contar con una solución tipo chatbot capaz de responder a las diferentes consultas sobre los productos de la canasta familiar y generar predicciones (forecasting) para series de tiempo definidas por el usuario.
+
+-**Criterios de éxito del proyecto**: La solución chatbot debe ser capaz de proporcionar respuestas precisas sobre productos de la canasta familiar, incluyendo consultas sobre procedencia departamental, municipal, cantidades y categorías, con un 90% de precisión en las respuestas textuales.
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+- Descripción detallada de los hiper parámetros del modelo.
 
 ## Arquitectura de la solución
 
 En esta sección, presentamos la arquitectura general del proyecto, la cual ha sido diseñada para optimizar el flujo de trabajo y alcanzar los objetivos del proyecto. La arquitectura está integrada por los siguientes componentes [_Indicar solo los que se requieran_]:
 
-- **Herramientas de gestión y almacenamiento de datos:** Para la gestión y almacenamiento de datos utilizamos la/el [base de datos estructurada, no estructurada, almacenamiento distribuido, lago de datos] de [indicar el nombre].
+- **Herramientas de gestión y almacenamiento de datos:** Para la gestión y almacenamiento de datos utilizamos la base de datos estructurada de Oracle.
  
-- **Herramientas de procesamiento de datos:** Para el procesamiento de datos, utilizamos [procesamiento en lote, procesamiento en tiempo real] con [indicar el nombre de la herramienta].
+- **Herramientas de desarrollo y entrenamiento de modelos:** Para el desarrollo y entrenamiento de modelos, usamos la biblioteca de ciencia de datos de Python denominada Transformers.
  
-- **Herramientas de gestión de calidad y gobernanza de datos:** Para la gestión de calidad y gobernanza de datos, empleamos [perfilamiento y limpieza de datos, gobernanza de datos] con [indicar el nombre de la herramienta].
+- **Herramientas de MLOps y CI/CD:** Para MLOps y CI/CD, utilizamos integración continua, despliegue continuo, operación y mantenimiento de modelos y versionado de código con GitHub.
  
-- **Herramientas de desarrollo y entrenamiento de modelos:** Para el desarrollo y entrenamiento de modelos, usamos [plataforma de desarrollo, AutoML, bibliotecas de ciencia de datos, gestión de paquetes y entornos virtuales] de [indicar el nombre de la herramienta].
- 
-- **Herramientas de MLOps y CI/CD:** Para MLOps y CI/CD, utilizamos [integración continua, despliegue continuo, operación y mantenimiento de modelos, versionado de código, versionado de datos] con [indicar el nombre de la herramienta].
- 
-- **Herramientas de visualización de datos:** Para la visualización de datos, empleamos [plataforma de visualización de datos, bibliotecas de visualización de datos] como [indicar el nombre de la herramienta].
- 
-- **Herramientas de orquestación de flujos de trabajo:** Para la orquestación de flujos de trabajo, usamos [indicar el nombre de la herramienta].
- 
-- **Herramientas de gestión de proyectos:** Para la gestión de proyectos, utilizamos [indicar el nombre de la herramienta].
-
-Los cuales se pueden visualizar en el siguiente diagrama:
-
-[Diagrama]
-
 ## Metodología
 
 [Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
@@ -54,32 +42,20 @@ Los cuales se pueden visualizar en el siguiente diagrama:
 
 | Proceso clave | Duración Estimada | Fechas |
 |------|---------|-------|
-| Iniciación del proyecto | XX semanas | del X de Mes al X de Mes |
-| Ingeniería de características | XX semanas | del X de Mes al X de Mes |
-| Experimentación | XX semanas | del X de Mes al X de Mes |
-| Pipeline del flujo de trabajo automatizado de ciencia de datos | XX semanas | del X de Mes al X de Mes |
+| Iniciación del proyecto | 2 semanas | del 1 de Agosto al 15 de Agosto |
+| Ingeniería de características | 2 semanas | del 16 de Agosto al 31 de Agosto |
+| Experimentación | 4 semanas | del 1 de Septiembre al 30 de Septiembre |
+| Pipeline del flujo de trabajo automatizado de ciencia de datos | 4 semanas | del 1 de Octubre al 31 de Octubre |
 
 ## Equipo del Proyecto
 
-- [Nombre integrante #1 del equipo y Rol]
-- [Nombre integrante #2 del equipo y Rol]
-- [Nombre integrante #3 del equipo y Rol]
-
-## Presupuesto
-
-[Descripción del presupuesto asignado al proyecto]
-
-## Stakeholders
-
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
+- **Juan Felipe Contreras Alcivar](https://github.com/contreras-juan)** - *Rol principal* - Científico de datos a cargo del desarrollo de los modelos.
+- **Alejandro Sandoval Pineda (https://github.com/alsandovalp)** - *Rol secundario* - Líder del proyecto de ciencia de datos.
 
 ## Aprobaciones
 
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+- Alejandro Sandoval Pineda - Líder del proyecto de ciencia de datos
+- Fecha de aprobación: 15/10/2024
 
 ## Resumen Ejecutivo
 
@@ -106,8 +82,3 @@ Describe los resultados del proyecto de ciencia de datos y presenta los principa
 
 - Resumen de los resultados y principales logros del proyecto.
 - Conclusiones finales y recomendaciones para futuros proyectos.
-
-## Agradecimientos
-
-- Agradecimientos al equipo de trabajo y a los colaboradores que hicieron posible este proyecto.
-- Agradecimientos especiales a los patrocinadores y financiadores del proyecto.

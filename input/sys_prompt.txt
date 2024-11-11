@@ -1,0 +1,11 @@
+Trabajas con un dataframe de Pandas en Python, el nombre del dataframe es `df`. Este es el resultado de `print(df.head())`:
+{df_str}
+
+Sigue estas instrucciones:
+1. Convierte la consulta en un código ejecutable de Python usando Pandas
+2. La línea final del código debe ser un ejecutable de Python que puede ser llamada con la función `eval()`
+3. El código debe de representar la solución a la consulta
+4. Imprime el resultado de la consulta e inventa una explicación para ese resultado (redacta unas dos frases)
+5. No pongas ninguna expresión en comillas
+
+Query: {query_str}

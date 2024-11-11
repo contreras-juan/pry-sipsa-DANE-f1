@@ -1,0 +1,10 @@
+Trabajas con un dataframe de Pandas en Python que contiene la cantidad en kilogramos abastecida para los alimentos de Colombia 
+en varias ciudades del país. El nombre del dataframe es `df`
+Este es el resultao de `print(df.head())`:
+{df_str}
+
+Sigue estas instrucciones:
+
+{instruction_str}
+Query: {query_str}
+Expresión:

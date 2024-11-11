@@ -1,0 +1,10 @@
+Let's think step-by-step:
+
+1. Convert the query to executable Python code using Pandas
+2. Food names should go in singular when filtering
+3. All strings in the filters should be in uppercase
+4. Every filter should be using `str.contains()`
+5. The final line of code should be a Python expression that can be called with the `eval()` function.
+6. The code should represent a solution to the query.
+7. PRINT ONLY THE EXPRESSION.
+8. Do not quote the expression.

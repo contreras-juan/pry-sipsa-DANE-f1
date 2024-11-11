@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIPSABot</title>
-    <link rel="icon" type="image/x-icon" href="../assets/images/mini-logo.png">
+    <link rel="shorcut icon" href="{{ url_for('static', filename='mini-logo.ico') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
     <!--Bootstrap 5.2-->
-    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../static/css/styles.css" />
     <!--FontAwesome-->
     <link
       rel="stylesheet"
@@ -44,17 +44,53 @@
     <main>
       <header>
         <div class="noise bg-noise"></div>
-        <div class="provided">
-          <img src="../assets/images/DANE.png" alt="Logo" />
-        </div>
-
-          <img src="../assets/images/certificado.png" alt="Logo" />
-
-        <div class="title">
-          <h1>¡Bienvenido/a! a SIPSABot DANE</h1>
-          <p>Tu guía de información de la canasta familiar</p>
-        </div>
       </header>
+
+      <main class="pt-5">
+        <div id="container-help" class="container">
+          <div class="row">
+            <!--Introducción-->
+            <div class="col-12 text-center text-secondary pt-5">
+              <div class="pb-3">
+              </div>
+              <p class="fw-bold">Este herramienta es un prototipo de chatbot desarrollado sobre el modelo GPT-3.5 de OpenAI, y utiliza datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del 2024. 
+ 
+                Está específicamente diseñado para responder consultas relacionadas con productos de la canasta familiar en el contexto agropecuario. Los usuarios pueden hacer preguntas como.
+                 
+                Aunque el chatbot ha sido ajustado al dominio agropecuario, sus respuestas son estimaciones basadas en datos históricos y patrones aprendidos, y no deben interpretarse como asesoramiento financiero, comercial o de abastecimiento directo.</p>
+              <span>Estas son algunas que puedes hacer:</span>
+            </div>
+    
+            <!--Botones de atajo-->
+            <div class="col-12 pt-5">
+              <div class="d-block text-center">
+                <button onclick="setQuestion(this)" type="button" class="btn btn-dark m-2" style="background-color: #B6004B;">¿Cuántos kilogramos de fresas se ofrecieron en Facatativá en 2022? <i class="fas fa-info-circle"></i></button>
+                <button onclick="setQuestion(this)" type="button" class="btn btn-dark m-2" style="background-color: #B6004B;"> ¿Cuántos kilogramos de pimentones se ofrecieron en 2023?<i class="fas fa-info-circle"></i></button>
+                <button onclick="setQuestion(this)" type="button" class="btn btn-dark m-2" style="background-color: #B6004B;"> ¿Cuál es la ciudad que más kilogramos de mandarinas ofreció? <i class="fas fa-info-circle"></i></button>
+                <button onclick="setQuestion(this)" type="button" class="btn btn-dark m-2" style="background-color: #B6004B;"> ¿Cuál es la predicción de los kilogramos ofrecidos del tomate larga vida en Bogotá para 2024? <i class="fas fa-info-circle"></i></button>
+                <!-- <button onclick="setQuestion(this)" type="button" class="btn btn-dark m-2">¿Existe alguna correlación entre el número de categorías manejas y las ventas declaradas de una tienda? <i class="fas fa-info-circle"></i></button>
+                <button onclick="setQuestion(this)" type="button" class="btn btn-dark m-2">¿Entre más cercana está un comercio de un D1 o un ARA, vende menos? <i class="fas fa-info-circle"></i></button>
+                <button onclick="setQuestion(this)" type="button" class="btn btn-dark m-2">¿Las tiendas que se han digitalizado, son comercios que venden más vs las otras? <i class="fas fa-info-circle"></i></button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    
+         <div id="container-chat" class="container mt-4 bg-light rounded p-2 container-scroll" style="height: 79vh; overflow-x: hidden; overflow-y: scroll;display: none">
+          <div class="row">
+            <div id="chat-content" class="col p-5">
+                <!--Fecha de la pregunta-->
+                <div class="row d-none">
+                  <div id="date" class="text-center text-contacts p-3">
+                    <time datetime="2023-07-09" class="ps-3 px-3 pt-1 pb-1 border rounded-pill">9 de julio de 2023</time>
+                  </div>
+                </div>
+    
+            </div>
+          </div>
+         </div>
+    
+      </main>
 
       <section
         id="container-chat"
@@ -91,8 +127,8 @@
             onclick="ask()"
             style="
               border-radius: 999px;
-              background: #FB2878;
-              border-color: #FB2878;
+              background: #B6004B;
+              border-color: #B6004B;
             "
           >
             <i class="fas fa-paper-plane" id="plane"></i>
@@ -107,7 +143,7 @@
             class="btn btn-secondary text-light"
             type="button"
             id="micButton"
-            style="border-radius: 999px; background-color: #FB2878; border-color: #FB2878;"
+            style="border-radius: 999px; background-color: #B6004B; border-color: #B6004B;"
           >
             <i class="fas fa-microphone"></i>
           </button>

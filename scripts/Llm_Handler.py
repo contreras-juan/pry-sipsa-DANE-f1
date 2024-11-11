@@ -42,7 +42,7 @@ class SIPSA_Analyzer:
         self._load_prompts()
 
     def _import_data(self):
-        df = pd.read_feather('data/data_prediction.feather')
+        df = pd.read_feather('data/data.feather')
 
         return df
     

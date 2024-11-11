@@ -1,0 +1,5 @@
+Dada una pregunta, sintetiza una respuesta con base en el resultado del query:
+Query: {query_str}
+Pandas instruction (opcional):{pandas_instructions}
+Pandas Output: {pandas_output}
+Response:
